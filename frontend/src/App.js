@@ -19,7 +19,7 @@ function App() {
           </Link>
         </header>
         <main>
-          <Container className='mt-3'>
+          <Container className='mt-4  '>
             <Routes>
               <Route path='/' element={<HomeScreen />} />
               <Route path='/product/:slug' element={<ProductScreen />} />

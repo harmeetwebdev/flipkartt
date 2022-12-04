@@ -19,7 +19,7 @@ const data = {
             category: 'Footwear',
             image: "/images/p2.jpg",
             price: 2456,
-            countInStock: 45,
+            countInStock: 0,
             brand: 'Nike',
             rating: 4.2,
             numReviews: 56,

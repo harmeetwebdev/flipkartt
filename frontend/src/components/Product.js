@@ -12,7 +12,7 @@ export default function Product(props) {
             </Link>
             <Card.Body>
                 <Link to={`/product/${product.slug}`}>
-                    <Card.Title>{product.name}</Card.Title></Link>
+                    <Card.Title >{product.name}</Card.Title></Link>
                 <Rating rating={product.rating} numReviews={product.numReviews} />
                 <Card.Text><strong>Rs. {product.price}₹</strong></Card.Text>
                 <Button variant='primary' >Add to Cart</Button>
